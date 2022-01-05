@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin-top: 0px;
+    margin: 0;
+    padding: 0;
 }
 .navigation-bar ul {padding: 0px;margin: 0px;list-style-type: none;text-align: right;}
 .navigation-bar ul li{display: inline-block;}
@@ -32,6 +33,7 @@ body{
 }
 section{
     height:550px;
+    margin-bottom: 50px;
 }
 h1{
     font-size: 50px;
@@ -83,6 +85,9 @@ p{
     background-repeat: no-repeat;
     background-position: center;
 }
+.div-thre{
+    margin-bottom: 100px;
+}
 .skill{
     text-align: center;
     margin-bottom: 30px;
@@ -91,17 +96,29 @@ p{
     float: left;
     width:25%;
     box-shadow: 5px 5px 9px #c067c8;
-    margin-left:6%;
-    
+    margin-left:4%;
+    padding: 2%;
 }
 .rightalign{
     text-align: left;
 }
 .justify{
     text-align: left;
+    color: dimgray;
 }
 .image{
     float: left;
     width: 30%;
     margin-left: 3%;
+}
+.resumeimage{
+    width:100%;
+}
+.cv-para{
+    margin-bottom: 60px;
+}
+.footer-para{
+    text-align: center;
+    color: dimgray;
+    margin-top: 0;
 }
